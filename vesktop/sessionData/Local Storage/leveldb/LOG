@@ -1,8 +1,0 @@
-2025/03/08-13:09:44.977 121a Reusing MANIFEST /home/shiro/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2025/03/08-13:09:44.982 121a Recovering log #63
-2025/03/08-13:09:44.982 121a Level-0 table #67: started
-2025/03/08-13:09:44.986 121a Level-0 table #67: 58787 bytes OK
-2025/03/08-13:09:44.992 121a Delete type=0 #63
-2025/03/08-13:29:30.861 121b Level-0 table #70: started
-2025/03/08-13:29:30.870 121b Level-0 table #70: 48981 bytes OK
-2025/03/08-13:29:30.876 121b Delete type=0 #68
