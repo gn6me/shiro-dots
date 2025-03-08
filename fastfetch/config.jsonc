@@ -1,0 +1,128 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  HYPRLAND
+//
+//  by Bina
+{
+  "logo": {
+    "source": "~/.config/fastfetch/images/reisen-inaba.png",
+    "type": "kitty",
+    "height": 18,
+    "padding": {
+      "top": 1,
+      "right": 3,
+    },
+  },
+  "display": {
+    "separator": " ➜  ",
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[36m  󰊠  コンピューター",
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────┐",
+    },
+    {
+      "type": "os",
+      "key": "   ",
+      "keyColor": "red", // = color4
+    },
+    {
+      "type": "kernel",
+      "key": "   ",
+      "keyColor": "red",
+    },
+    {
+      "type": "packages",
+      "key": "   ",
+      "keyColor": "green",
+    },
+    {
+      "type": "display",
+      "key": "  󰍹 ",
+      "keyColor": "green",
+    },
+    {
+      "type": "wm",
+      "key": "   ",
+      "keyColor": "yellow",
+    },
+    {
+      "type": "terminal",
+      "key": "   ",
+      "keyColor": "yellow",
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────┘",
+    },
+    "break",
+    {
+      "type": "title",
+      "key": "   ",
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────┐",
+    },
+    {
+      "type": "cpu",
+      "format": "{1}",
+      "key": "   ",
+      "keyColor": "blue",
+    },
+    {
+      "type": "gpu",
+      "format": "{2}",
+      "key": "   ",
+      "keyColor": "blue",
+    },
+    {
+      "type": "gpu",
+      "format": "{3}",
+      "key": "   ",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "memory",
+      "key": "   ",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "uptime",
+      "key": "   ",
+      "keyColor": "31",
+    },
+    {
+      "type": "disk",
+      "key": "  󱦟 ",
+      "keyColor": "31",
+      "folders": "/",
+      "format": "{days} days | {create-time:10}",
+    },
+    {
+      "type": "media",
+      "key": "  󰝚 ",
+      "keyColor": "green",
+    },
+    {
+      "type": "btrfs",
+      "key": "   ",
+      "keyColor": "green",
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────┘",
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle",
+    },
+    "break",
+  ],
+}

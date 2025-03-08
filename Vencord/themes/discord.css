@@ -1,0 +1,53 @@
+/**
+* @name pywal
+* @author shiro
+* @version 1.0.0
+**/
+
+:root {
+    --background: #262633;
+    --base00: #262633; /* Black */
+    --base01: #6DADC9; /* Bright Black */
+    --base02: #9793AC; /* Grey */
+    --base03: #EC9891; /* Brighter Grey */
+    --base04: #F8EFB1; /* Bright Grey */
+    --base05: #ACA9D5; /* White */
+    --base06: #95E8F0; /* Brighter White */
+    --base07: #e8e4e6; /* Bright White */
+    --base08: #a29fa1; /* Red */
+    --base09: #6DADC9; /* Orange */
+    --base0A: #9793AC; /* Yellow */
+    --base0B: #EC9891; /* Green */
+    --base0C: #F8EFB1; /* Cyan */
+    --base0D: #ACA9D5; /* Blue */
+    --base0E: #95E8F0; /* Purple */
+    --base0F: #e8e4e6; /* Magenta */
+
+    --primary-630: var(--base00); /* Autocomplete background */
+    --primary-660: var(--base00); /* Search input background */
+}
+
+.theme-light, .theme-dark {
+    --search-popout-option-fade: none; /* Disable fade for search popout */
+    --bg-overlay-2: var(--base00); /* These 2 are needed for proper threads coloring */
+    --home-background: var(--base00);
+    --background-primary: var(--base00);
+    --background-secondary: var(--base00);
+    --background-secondary-alt: var(--base00);
+    --channeltextarea-background: var(--base00); /* Message Background */
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base01);
+    --background-floating: var(--base00);
+    --text-normal: var(--base0F);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base03);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base03); /* Unread and current channel */
+    --interactive-muted: var(--base03);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}
